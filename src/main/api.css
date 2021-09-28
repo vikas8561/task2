@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+* {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.2s linear;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container .data .profile {
+  font-size: 2rem;
+  background-color:rgb(3, 2, 19);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.container .data .profile:hover {
+  background-color: rgb(95, 95, 95);
+  
+}
+
+
+.container .data .profile .image {
+  text-align: center;
+
+}
+
+.container .data .profile .image img {
+  border-radius: 50%;
+}
+
+.container .data .profile p {
+  margin-top: 3rem;
+  color: white;
+  text-align: center;
+}
+
+
+html {
+  font-size: 62.5%;
+  background-color: white;
+}
+
+header {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  size: 10px;
+
+  box-shadow: 0 0.5rem 1.5rem rgba(241, 239, 239, 0.178);
+  background-color: rgb(7, 4, 49);
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+header .logo {
+  color: rgb(247, 247, 248);
+  font-size: 4rem;
+  font-weight: bolder;
+  padding: 12px;
+  position: static;
+}
+
+header .navbar a {
+  color: black;
+  height: 97px;
+}
+
+.UserCard h1 {
+  font-size: 2.5rem;
+  size: 10px;
+}
+
+.UserCard {
+  size: 1033px 97px;
+  height: 97px;
+}
+
+.UserCard button {
+  font-size: 2rem;
+  padding: 10px 50px;
+  border-radius: 0.5rem;
+  border: 0.3rem solid rgba(0, 0, 0, 0.3);
+  margin: 2rem 5rem;
+}
+
+.UserCard button:hover {
+  background-color: rgb(182, 182, 179);
+  color: white;
+  cursor: pointer;
+}
+.loading {
+  padding-bottom: 100%;
+}
+.container .data {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 90px 10%;
+  gap: 50px;
+  width: 100%;
+}
+
+
+@media (max-width: 600px) {
+  .container,
+  .UserCard {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 2px) {
+  html {
+    font-size: 50%;
+  }
+}
